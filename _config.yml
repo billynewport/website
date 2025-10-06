@@ -1,0 +1,43 @@
+# Site settings
+title: DataSurface
+email: info@datasurface.com
+description: Professional data services and solutions for modern businesses
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://datasurface.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# GitHub Pages settings
+github_username: billynewport
+repository: billynewport/website
+
+# SEO settings
+lang: en_US
+author: DataSurface Team
+
+# Navigation (customize as needed)
+header_pages:
+  - about.md
+  - services.md
+  - contact.md
+
+# Social media (update with actual profiles)
+twitter_username: datasurface
+linkedin_username: datasurface
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
